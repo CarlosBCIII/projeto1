@@ -32,7 +32,7 @@ const handleAddProduct = async () => {
     })
     setNewProduct({ name:"", price:"", image:""});
   }
-   console.log("Success:",success," => Message:",message);
+  // console.log("Success:",success," => Message:",message);
 }
 
   return (

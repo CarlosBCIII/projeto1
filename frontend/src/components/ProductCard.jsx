@@ -49,7 +49,6 @@ const ProductCard = ({product}) => {
   }
 
   const handleUpdateProduct = async (pid,updatingProduct) => {
-    //console.log("handleUpdateProduct=>",updatingProduct)
     const {success,message}=await updateProduct(pid,updatingProduct);
     modal.onClose();
     if(!success){
